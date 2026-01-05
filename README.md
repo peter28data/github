@@ -1,3 +1,27 @@
+## C/C++ to Run microphone on microwave
+
+### Step 1: Runs Once when the Arduino powers on or resets, initializes serial communication. Allows the Arduino to send data to a computer via usb to monitor performance in the Serial Monitor.
+
+    void setup() {
+      Serial.begin(115200);
+    }
+
+### Step 2: Runs Continuouslyto read the analog value
+
+    void loop() {
+      int v = analogRead(A0);
+      Serial.println(v);
+      delay(2);
+    }
+
+
+
+
+
+
+
+
+
 <header>
 
 <!--
