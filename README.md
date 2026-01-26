@@ -10,7 +10,12 @@ The files in this folder contain images for Tableau Dashboard visualization in t
 
 ## 📊 Healthcare Company Revenue & Capital Overview
 
-### Executive Summary - Junior Analsyt Overview
+![Global Healthcare Market Cap](https://github.com/peter28data/github/blob/d3a36805bdf274c662389e3d96e1e25c06388bbc/images/healthcare/Healthcare%20Market%20Cap.png)
+
+---
+
+
+### Executive Summary - Junior Analyst Overview
 
 This dashboard compares revenue and market capitalization across major healthcare companies to understand how different business segments and geographies contribute to overall value. It allows leadership to identify which companies and segments generate the highest reveneue and market cap. This dashboard provides insights for our stakeholders on geographic distribution and the differences in performance across business segments. 
 
@@ -19,6 +24,54 @@ What Makes This Junior Analysis
 - Focused on what is shown
 - Limited business implication
 - Descriptive
+
+### Business Problem
+
+Healthcare organizations routinely lose revenue due to:
+1. Slow denial resolution
+2. Preventable claim denials
+3. Poor visibility into denial drivers by payer, category, and age
+
+Without a structured denial analytics framework:
+
+- Aging claims become unrecoverable
+- High-doller denials remain unresolved
+- Staff efforts are misallocated
+
+### Methodology
+1. Data Extraction & Cleansing (SQL)
+
+- Pulled claims, denial reasons, financial class, aging, and payment data from transactional databases
+- Standardized denial codes and rollups
+
+2. Dashboard Development (Tableau)
+
+- Built KPI tiles for: Total denied amount, distinct, claims, average denial age
+- Designed interactive visuals: Treemap of denial reasons by financial impact, Scatterplot by denial age, Trend analysis of denied amounts over time
+- Enabled drop-downs to filter claim-level detail
+
+### Results & Business Recommendations
+
+Results:
+High-dollar denials cluster at higher aging levels, increasing write-off risk. Certain financial classes exhibit systematic denial patterns, indicating process or documentation gaps. A small number of denial categories (e.g., duplicate claims, eligibility, billing errors)
+
+Business Recommendations:
+Prioritze resolution of top 3 denial categories, which drive the majority of revenue leakage. Focus staff efforts on high-dollar, high-aging claims for maximum recovery. Implement front-end process controls (eligibility and billing validation) to prevent repeat denials. 
+
+### Results & Business Recommendations - Junior Analyst Perspective
+
+
+
+### Estimated Financial Impact
+For a healthcare organization with $10M annual revenue:
+
+- Reducing denials by just 1.5% of revenue -> $150k recovered
+- Improving denial resolution speed by 10-15 days can increase cash flow by $250k-$400k annually
+
+Impact Connection:
+The dashboard directly ties denial analytics to cash flow recovery prioritization, and operational efficiency, making it a powerful tool for revenue cycle leadership. 
+
+---
 
 ### Executive Summary - Senior Analyst Overview
 
@@ -33,23 +86,6 @@ What Makes This Senior Analysis
 ---
 
 
-
-![Global Healthcare Market Cap](https://github.com/peter28data/github/blob/d3a36805bdf274c662389e3d96e1e25c06388bbc/images/healthcare/Healthcare%20Market%20Cap.png)
-
----
-
-### 📊 Healthcare Company Revenue and Capital Overview
-
-This dashboard includes 5 visualizations with filters for the top healthcare companies in revenue and market cap for the year 2020. 
-
-- The geography map on the lower left side shows the total sum of market cap value based on country.
-- On the upper right, a horizontal bar graph groups the sum of total market cap by Category and Subcategory such as immunology, oncology, and vaccines.
-- Below is a bubble graph to group the total market capitalization by the most profitable cities the healthcare company is based in such as New York, New Brunswick, and Basel.
-- On the lower right, a vertical bar chart displays 3 business segments:
-1. Pharmaceuticals
-2. Medical Devices, Diagnostics, Vaccines
-3. Consumer Health, Unlabeled Data
-
 ---
 
 ### 📊 Revenue Cycle Analyst Dashboard
@@ -58,13 +94,7 @@ This dashboard includes 5 visualizations with filters for the top healthcare com
 
 ---
 
-### 📊 Weekly Denials Management Dashboard
 
-This dashboard includes 4 visualizations with filters for location and insurance rollup for managing weekly healthcare denials claim on a weekly basis. 
-
--- The lower left is a line chart of the total denial amount for the past month seperated by points in each week. There is a dash line to indicate the average denial amount for each week.
-
--- The upper left chart is a heatmap that shows the proportion of denial claims based on categories.
 
 ---
 
