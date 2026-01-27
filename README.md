@@ -19,7 +19,7 @@ The files in this folder contain images for Tableau Dashboard visualization in t
 
 This dashboard compares revenue and market capitalization across major healthcare companies to understand how different business segments and geographies contribute to overall value. It allows leadership to identify which companies and segments generate the highest reveneue and market cap. This dashboard provides insights for our stakeholders on geographic distribution and the differences in performance across business segments. 
 
-What Makes This Junior Analysis
+What Makes This Junior Analysis:
 
 - Focused on what is shown
 - Limited business implication
@@ -53,14 +53,12 @@ Without a structured denial analytics framework:
 ### Results & Business Recommendations
 
 Results:
+
 High-dollar denials cluster at higher aging levels, increasing write-off risk. Certain financial classes exhibit systematic denial patterns, indicating process or documentation gaps. A small number of denial categories (e.g., duplicate claims, eligibility, billing errors)
 
 Business Recommendations:
+
 Prioritze resolution of top 3 denial categories, which drive the majority of revenue leakage. Focus staff efforts on high-dollar, high-aging claims for maximum recovery. Implement front-end process controls (eligibility and billing validation) to prevent repeat denials. 
-
-### Results & Business Recommendations - Junior Analyst Perspective
-
-
 
 ### Estimated Financial Impact
 For a healthcare organization with $10M annual revenue:
@@ -73,15 +71,35 @@ The dashboard directly ties denial analytics to cash flow recovery prioritizatio
 
 ---
 
+### Results & Business Recommendations - Junior Analyst Perspective
+
+Results:
+
+Certain companies have higher market cap compared to revenue, indicating differences in valuation. Oncology and immunology segments contribute significantly to total market cap. A small number of cities and countries account for a large portion of total market value.
+
+Business Recommendations:
+
+Further analyze high-performing segments. Monitor underperforming segments for improvement opportunities. Use geographic insights to guide future investments.
+
+Financial Impact (Estimated):
+
+Improving performance in underperforming segments could increase revenue by 3%-5% for a company with $10M in revenue
+
+---
+
 ### Executive Summary - Senior Analyst Overview
 
 This dashboard evaluates how effectively healthcare organizations convert capital into revenue across therapeutic areas, business segments, and geographies. The focus is on capital efficiency, concentration risk, and scalable growth opportunities. The insights are designed to inform portfolio strategy, capital allocation, and market expansion decisions, assisting leadership to shift investment toward segments and geographies with the strongest revenue yield. 
 
-What Makes This Senior Analysis
+What Makes This Senior Analysis:
 
 - Focused on decision-making
 - Connects analytics to strategy
 - Outcome-driven
+
+### Senior Analyst Perspective
+
+Capital concentration is not evenly distributed. Specific therapeutic areas generate disporportionate market value relative to revenue, signaling higher growth expectations and pricing power. Geographic clustering suggests operational and R&D efficiences that can be replicated in adjacent markets. Underperforming segments represent opportunities for 
 
 ---
 
